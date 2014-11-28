@@ -55,7 +55,10 @@ html, body {
   body {padding-top: 0;}
 }
 
-table {width: 100%;}
+table {
+  width: 100%;
+}
+
 
 /* Don't make sortable table header text blue */
 th.sortable a { color: #000;}

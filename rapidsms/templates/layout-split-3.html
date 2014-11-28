@@ -1,12 +1,4 @@
-{% extends "base.html" %}
-{% block content %}
-<div class="span4">
-    {% block left %}{% endblock %}
-</div>
-<div class="span4">
-    {% block middle %}{% endblock %}
-</div>
-<div class="span4">
-    {% block right %}{% endblock %}
-</div>
-{% endblock %}
+{% extends "base.html" %} {% block content %}
+<div class="col-md-4">{% block left %}{% endblock %}</div>
+<div class="col-md-4">{% block middle %}{% endblock %}</div>
+<div class="col-md-4">{% block right %}{% endblock %}</div>{% endblock %}

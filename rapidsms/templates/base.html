@@ -10,10 +10,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {% block stylesheets %}
-{#        <link type="text/css" rel="stylesheet" href="{% static 'rapidsms/stylesheets/tables.css' %}" />#}
+        <link type="text/css" rel="stylesheet" href="{% static 'rapidsms/stylesheets/tables.css' %}" />
         <link type="text/css" rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}" />
         <link type="text/css" rel="stylesheet" href="{% static 'bootstrap/css/bootstrap-theme.css' %}" />
-    <    <link type="text/css" rel="stylesheet" href="{% static 'rapidsms/stylesheets/base.css' %}" />
+        <link type="text/css" rel="stylesheet" href="{% static 'rapidsms/stylesheets/base.css' %}" />
         {% endblock %}
 
         {% block extra_stylesheets %}
@@ -42,13 +42,10 @@
                                     <img alt="RapidSMS Logo" width="100" src="{% static 'rapidsms/images/rapidsms-logo.png' %}"/>
                                 </a>
 
-
                                 <ul class="nav navbar-nav">
-
                                     {% include "rapidsms/_nav_bar.html" %}
-
-
                                 </ul>
+
                                 <ul class="nav navbar-nav pull-right">
                                     {% block admin_link %}
                                         {% if user.is_staff %}

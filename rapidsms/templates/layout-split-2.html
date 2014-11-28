@@ -1,9 +1,3 @@
-{% extends "base.html" %}
-{% block content %}
-<div class="span6">
-    {% block left %}{% endblock %}
-</div>
-<div class="span6">
-    {% block right %}{% endblock %}
-</div>
-{% endblock %}
+{% extends "base.html" %} {% block content %}
+<div class="col-md-6">{% block left %}{% endblock %}</div>
+<div class="col-md-6">{% block right %}{% endblock %}</div>{% endblock %}
