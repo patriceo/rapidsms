@@ -1,3 +1,5 @@
+This is a simple fork of RapidSMS with migration from Bootstrap2 to Bootstrap3.
+
 RapidSMS
 ========
 
